@@ -5,8 +5,23 @@
 
 using namespace std;
 using namespace cv;
+namespace fs = filesystem;
 
-const string strPngPath = "C:\\Users\\Song\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Extensions\\lkanpeepkkpicfokidgcpnljbapllgfl\\1.0.3_0\\images\\1.jpg";
+const string strPngPath = ".\\testSaveImg.png";
+
+void getCurrentDir()
+{
+    try
+    {
+        fs::path currentPath = fs::current_path();
+        cout << "当前工作目录：" << currentPath.string() << endl;
+    }
+    catch (const fs::filesystem_error& e)
+    {
+        cout << "获取当前目录失败：" << e.what() << endl;
+    }
+}
+
 int test1()
 {
     Mat image;
@@ -66,7 +81,7 @@ void saveImg()
         }
         else if (chKey == 's')
         {
-            imwrite("testSaveImg.png", image);
+            imwrite("testSaveImgTmp.png", image);
         }
         else
         {

@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openCvTest", "openCvTest\openCvTest.vcxproj", "{619F8A44-881E-4656-9FA1-02070BEA2F6B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "checkCar", "checkCar\checkCar.vcxproj", "{F25EF8AC-63F6-4869-8236-CD4F3C3D7870}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,14 +21,6 @@ Global
 		{619F8A44-881E-4656-9FA1-02070BEA2F6B}.Release|x64.Build.0 = Release|x64
 		{619F8A44-881E-4656-9FA1-02070BEA2F6B}.Release|x86.ActiveCfg = Release|Win32
 		{619F8A44-881E-4656-9FA1-02070BEA2F6B}.Release|x86.Build.0 = Release|Win32
-		{F25EF8AC-63F6-4869-8236-CD4F3C3D7870}.Debug|x64.ActiveCfg = Debug|x64
-		{F25EF8AC-63F6-4869-8236-CD4F3C3D7870}.Debug|x64.Build.0 = Debug|x64
-		{F25EF8AC-63F6-4869-8236-CD4F3C3D7870}.Debug|x86.ActiveCfg = Debug|Win32
-		{F25EF8AC-63F6-4869-8236-CD4F3C3D7870}.Debug|x86.Build.0 = Debug|Win32
-		{F25EF8AC-63F6-4869-8236-CD4F3C3D7870}.Release|x64.ActiveCfg = Release|x64
-		{F25EF8AC-63F6-4869-8236-CD4F3C3D7870}.Release|x64.Build.0 = Release|x64
-		{F25EF8AC-63F6-4869-8236-CD4F3C3D7870}.Release|x86.ActiveCfg = Release|Win32
-		{F25EF8AC-63F6-4869-8236-CD4F3C3D7870}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

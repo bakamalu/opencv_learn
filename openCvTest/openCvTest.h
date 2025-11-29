@@ -1,9 +1,12 @@
 #pragma once
 
 #include <iostream>
+#include <filesystem> 
 #include <opencv2/highgui.hpp>
 #include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>
+
+void getCurrentDir();
 
 int test1();
 
